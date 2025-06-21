@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <title>Website Of Australian University</title>
+     <link rel="stylesheet" href="style.css">
+              <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+               <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" 
+           rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+    
+</head>
+<body>
+   <section class="sub-header">
+        <nav> 
+              <a href="index.html"><img src="images/background.jpg"></a>
+     <div class="nav-links" id="navLinks">
+     <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+               <li><a href="index.htm">HOME</a><li>
+               <li><a href="about.htm">ABOUT</a><li>
+               <li><a href="course.htm">COURSE</a><li>
+               <li><a href="blog.htm">BLOG</a><li>
+               <li><a href="">CONTACT</a><li>
+
+              </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+         </nav>
+     
+    </section>
+
+
+    <!-------course------>
+    
+   <section class="course">
+    <h1>Courses We Offer</h1>
+     <p>here are some list of courses and their detailed information.</p>
+      <div class="row">
+           <div class="course-col">
+           <h3>Intermediate</h3>
+           <p>Intermediate courses are for learners who have a basic understanding of a subject and are ready to move on to more advanced topics. They are designed for those who have a passion or an interest in a particular area but might need more support when it comes to technical and study skills.
+
+           </p>
+      </div>
+      <div class="course-col">
+      <a href="" ></a>
+           <h3>Degree</h3>
+           <p> A degree course is a 3–4 year course that leads to a degree from a UGC-recognized university.
+           Degree courses are a defined, integrated course of study that leads to an academic degree, such as a Bachelor of Arts or Bachelor of Science.
+           Degree programs may or may not require a student to declare a specialization. 
+           Some popular degree courses include: Engineering, Medicine, 
+           Law, Business Management, Arts and Humanities.
+
+           </p>
+      </div>
+      <div class="course-col">
+           <h3>Post Graduation</h3>
+           <p> A postgraduate degree is a higher-level qualification that will further develop your 
+                knowledge in a particular subject area. 
+               You usually have to have completed an undergraduate degree before you can continue on to postgraduate study.
+
+           </p>
+      </div>
+   </section>
+
+  
+
+     <section class="facilities">
+          <h1>Our Facilities</h1>
+          <p>Here are some facilities and their detailed information</p>
+        <div class="row">
+             <div class="facilities-col">
+             <img src="images/library.png">
+             <h3>World class library</h3>
+             <p>A university can include several campuses or different places where 
+             classes are taught by professors.</p>
+             </div>
+             <div class="facilities-col">
+             <img src="images/basketball.png">
+             <h3>Largest playground</h3>
+             <p>A university can include several campuses or different places where 
+             classes are taught by professors.</p>
+             </div>
+             <div class="facilities-col">
+             <img src="images/cafeteria.png">
+             <h3>Tasty and healthy food</h3>
+             <p>A university can include several campuses or different places where 
+             classes are taught by professors.</p>
+             </div>
+         </div>
+     
+     </section>
+     
+    <!--------JavaScript for Toggle Menu-------->
+    <script> 
+          var navLinks =document.getElementById("navLinks");
+          function showMenu(){
+            navLinks.style.right ="0";
+             }
+            function showMenu(){
+            navLinks.style.right ="-200px";
+	        }
+    </script>
+
+    <!-------Footer------>
+
+    <section class="footer">
+         <h4>&copy; 2024 Australian University. All rights reserved.</h4>
+        <p>Made with <i class="fa fa-heart-0"</i> by Jatin Thakan</p>
+        <div class="icons">
+              <i class="fa fa-facebook"></i>
+              <i class="fa fa-twitter"></i>
+              <i class="fa fa-instagram"></i>
+              <i class="fa fa-likedin"></i>
+
+        </section>
+
+</body>
+</html>

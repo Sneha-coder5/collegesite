@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <title>Website of Australian University</title>
+     <link rel="stylesheet" href="style.css">
+              <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+               <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" 
+           rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+    
+</head>
+<body>
+   <section class="sub-header">
+        <nav> 
+              <a href="index.html"><img src="images/background.jpg"></a>
+     <div class="nav-links" id="navLinks">
+     <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+               <li><a href="index.htm">HOME</a><li>
+               <li><a href="about.htm">ABOUT</a><li>
+               <li><a href="course.htm">COURSE</a><li>
+               <li><a href="blog.htm">BLOG</a><li>
+               <li><a href="">CONTACT</a><li>
+              </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+         </nav>
+     <h1>About Us</h1>
+    </section>
+
+
+    <!------About Us content------>
+    
+    <section class="about-us">
+          <div class="about-col">
+          <h1>We are the world's largest university</h1>
+          <p>When writing an About Us page for a university website, you can try to be personal and conversational. You can also try to keep it short and sweet, using bullet points to help visitors understand what the school is about.</p>
+         <a href="" class="hero-btn red-btn"> EXPLORE NOW </a>
+         </div>
+                   <div class="about-col">
+                    
+                   </div>
+          </div>
+     </section>
+     
+    <!--------JavaScript for Toggle Menu-------->
+    <script> 
+          var navLinks=document.getElementById("navLinks");
+          function showMenu(){
+            navLinks.style.right ="0";
+             }
+            function showMenu(){
+            navLinks.style.right ="-200px";
+	        }
+    </script>
+
+    <!-------Footer------>
+
+
+    <section class="footer">
+         <h4>&copy; 2024 Australian University. All rights reserved.</h4>
+        <p>Made with <i class="fa fa-heart-0"</i> by Jatin Thakan</p>
+        <div class="icons">
+              <i class="fa fa-facebook"></i>
+              <i class="fa fa-twitter"></i>
+              <i class="fa fa-instagram"></i>
+              <i class="fa fa-likedin"></i>
+
+        </section>
+
+</body>
+</html>
